@@ -20,7 +20,10 @@ def main():
     r = requests.get(users_url, headers=headers)
 
     # Figure out using python requests documentation at https://pypi.org/project/requests/ how to get the JSON of the response
-    print(r) #<---- answer goes into the parentheses
+
+    # Get the JSON response
+    response_json = r.json()
+    print(response_json) #<---- answer goes into the parentheses
 
 
     
