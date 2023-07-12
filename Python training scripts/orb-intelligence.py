@@ -11,7 +11,7 @@ def getCompanyByName():
     
     """ 
     The task:
-    1. Create the URL to pull down the information from the request URL
+    1. Create the request object to pull down the information from the request URL
     2. Print out the orb number and company name only if the address1 field = "1 BOWERMAN DR" in Beaverton, OR
 
     Objectives: Understand common processing logic and working with JSON objects in Python
